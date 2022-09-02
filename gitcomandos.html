@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comandos GitHub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <h1>Comandos Git</h1>
-    <h3>clonando </h3>
+    <h3>configuração Básica</h3>
+    <li>git config --global user.name "[nome da conta do git]"</li>
+    <li>git config --global user.email "[email vinculado a conta do git]"</li>
+       <P> <strong>--global</strong> indica que as configurações serão utilizadas em todos os repositorio</P>
+    <li>git config -l</li>
+       <p>  visualizar todas as condigurações inclusive as globais</p>
+    <br>
+    <h3>clonando um reposito remoto</h3>
+    <ul>
+        <li>via HTPPS</li>
+        <li>via SSH</li>
+    </ul>
+    <br>
     <h3> inicialização das atividades:</h3>
     <ul>
         <li>git fetch --all
             <p> sincroniza o repositorio local com o reposito remoto</p>
-        </li> 
+        </li>
         <li>git pull
             <p>faz o download das atualizações do servidor remoto</p>
         </li>
     </ul>
+    <br>
     <h3> finalização das atividades:</h3>
     <ul>
         <li>git status
@@ -34,6 +49,7 @@
             <p>faz upload das modificações do servidor local para o servidor remoto</p>
         </li>
     </ul>
-    
+
 </body>
+
 </html>
